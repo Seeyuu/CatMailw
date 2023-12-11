@@ -2,19 +2,18 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class NpcLevel2 : MonoBehaviour
+public class Flowerleel2 : MonoBehaviour
 {
-
-    [SerializeField] GameObject npc;
+    
     [SerializeField] GameObject flower;
+    [SerializeField] GameObject giveFlower;
     public bool isPlayerInRange;
 
 
     private void Start()
     {
 
-        npc.SetActive(false);
-        flower.SetActive(false);
+       giveFlower.SetActive(false);
 
     }
     void OnTriggerEnter2D(Collider2D other)
@@ -32,9 +31,9 @@ public class NpcLevel2 : MonoBehaviour
 
         if (isPlayerInRange && Input.GetKeyDown(KeyCode.E))
         {
-            npc.SetActive(true);
-            flower.SetActive(true);
-
+            
+            flower.SetActive(false);
+            giveFlower.SetActive(true);
         }
         else
         {
