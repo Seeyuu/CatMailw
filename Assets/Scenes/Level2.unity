@@ -29014,6 +29014,51 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4240907427747458859, guid: 11df5f46cdf44fa468add1413d5d9dd3, type: 3}
   m_PrefabInstance: {fileID: 1803692328}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1389778411
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1389778413}
+  - component: {fileID: 1389778412}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1389778412
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1389778411}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5b9a6d8141fa2f4ebe3ccfb90b7f1aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moodData: {fileID: 11400000, guid: d7774ae2b6914de40b48446da3de69df, type: 2}
+--- !u!4 &1389778413
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1389778411}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 25.82567, y: 4.5842113, z: 1.0499618}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1450693894
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -30176,7 +30221,7 @@ RectTransform:
   - {fileID: 92557879}
   - {fileID: 1450693895}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -143680,7 +143725,7 @@ RectTransform:
   - {fileID: 625741678}
   - {fileID: 1914027165}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
