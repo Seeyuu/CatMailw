@@ -101279,10 +101279,9 @@ MonoBehaviour:
   dialogueText: {fileID: 1810763989}
   dilogueBg: {fileID: 85554706}
   dialogueLines:
-  - "\u0E40\u0E22\u0E49 \u0E02\u0E2D\u0E07\u0E21\u0E32\u0E2A\u0E48\u0E07\u0E41\u0E25\u0E49\u0E27
-    !"
-  - "\u0E09\u0E31\u0E19\u0E15\u0E31\u0E49\u0E07\u0E15\u0E32\u0E23\u0E2D\u0E02\u0E2D\u0E07\u0E0A\u0E34\u0E49\u0E19\u0E19\u0E35\u0E49\u0E21\u0E32\u0E01\u0E46
-    \u0E02\u0E2D\u0E1A\u0E04\u0E38\u0E13\u0E19\u0E30 !"
+  - "\u0E2D\u0E38\u0E1B\u0E01\u0E23\u0E13\u0E4C\u0E15\u0E01\u0E1B\u0E25\u0E32\u0E19\u0E35\u0E48"
+  - "\u0E44\u0E21\u0E48\u0E08\u0E33\u0E40\u0E1B\u0E47\u0E19\u0E15\u0E49\u0E07\u0E40\u0E2D\u0E32\u0E01\u0E34\u0E48\u0E07\u0E44\u0E21\u0E49\u0E2B\u0E31\u0E01\u0E44\u0E1B\u0E40\u0E1B\u0E47\u0E19\u0E40\u0E1A\u0E47\u0E14\u0E2D\u0E35\u0E01\u0E41\u0E25\u0E49\u0E27"
+  - "\u0E02\u0E2D\u0E1A\u0E04\u0E38\u0E13\u0E19\u0E30\u0E40\u0E08\u0E49\u0E32\u0E40\u0E2B\u0E21\u0E35\u0E22\u0E27"
   FinishUI: {fileID: 1143690788}
   playerMovement: {fileID: 0}
 --- !u!114 &858686697
@@ -113614,6 +113613,37 @@ PrefabInstance:
       propertyPath: dialogueText
       value: 
       objectReference: {fileID: 1810763989}
+    - target: {fileID: 6082326900640504012, guid: 574b36890c44b864abf8edb137ed8446, type: 3}
+      propertyPath: dialogueLines.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6082326900640504012, guid: 574b36890c44b864abf8edb137ed8446, type: 3}
+      propertyPath: dialogueLines.Array.data[0]
+      value: "\u0E02\u0E2D\u0E1A\u0E04\u0E38\u0E13\u0E17\u0E35\u0E48\u0E21\u0E32\u0E2A\u0E48\u0E07\u0E43\u0E2B\u0E49\u0E19\u0E30
+        \u0E2A\u0E34\u0E48\u0E07\u0E19\u0E35\u0E49\u0E2A\u0E33\u0E04\u0E31\u0E0D\u0E21\u0E32\u0E01\u0E40\u0E25\u0E22\u0E25\u0E48\u0E30"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6082326900640504012, guid: 574b36890c44b864abf8edb137ed8446, type: 3}
+      propertyPath: dialogueLines.Array.data[1]
+      value: "\u0E20\u0E23\u0E23\u0E22\u0E32\u0E09\u0E31\u0E19\u0E40\u0E1E\u0E34\u0E48\u0E21\u0E40\u0E2A\u0E35\u0E22\u0E08\u0E32\u0E01\u0E2D\u0E38\u0E1A\u0E31\u0E15\u0E34\u0E40\u0E2B\u0E08\u0E38\u0E44\u0E21\u0E48\u0E19\u0E32\u0E19\u0E21\u0E32\u0E19\u0E35\u0E49"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6082326900640504012, guid: 574b36890c44b864abf8edb137ed8446, type: 3}
+      propertyPath: dialogueLines.Array.data[2]
+      value: "\u0E02\u0E2D\u0E1A\u0E04\u0E38\u0E13\u0E40\u0E18\u0E2D\u0E08\u0E23\u0E34\u0E07\u0E46"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6082326900640504012, guid: 574b36890c44b864abf8edb137ed8446, type: 3}
+      propertyPath: dialogueLines.Array.data[3]
+      value: "\u0E08\u0E30\u0E27\u0E48\u0E32\u0E44\u0E1B \u0E40\u0E18\u0E2D\u0E14\u0E39\u0E04\u0E38\u0E49\u0E19\u0E15\u0E32\u0E21\u0E32\u0E01
+        \u0E40\u0E2B\u0E21\u0E37\u0E2D\u0E19\u0E40\u0E08\u0E49\u0E32\u0E40\u0E2B\u0E21\u0E35\u0E22\u0E27\u0E17\u0E35\u0E48\u0E0D\u0E32\u0E15\u0E34\u0E09\u0E31\u0E19\u0E40\u0E25\u0E35\u0E49\u0E22\u0E07\u0E40\u0E25\u0E22"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6082326900640504012, guid: 574b36890c44b864abf8edb137ed8446, type: 3}
+      propertyPath: dialogueLines.Array.data[4]
+      value: "\u0E0D\u0E32\u0E15\u0E34\u0E09\u0E31\u0E19\u0E2D\u0E22\u0E39\u0E48\u0E40\u0E21\u0E37\u0E2D\u0E07\u0E02\u0E49\u0E32\u0E07\u0E46\u0E19\u0E35\u0E48\u0E40\u0E2D\u0E07
+        \u0E40\u0E18\u0E2D\u0E25\u0E2D\u0E07\u0E44\u0E1B\u0E2B\u0E32\u0E40\u0E02\u0E32\u0E14\u0E39\u0E21\u0E31\u0E49\u0E22"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6082326900640504012, guid: 574b36890c44b864abf8edb137ed8446, type: 3}
+      propertyPath: dialogueLines.Array.data[5]
+      value: "[ \u0E01\u0E14 F \u0E40\u0E1E\u0E37\u0E48\u0E2D\u0E44\u0E1B\u0E22\u0E31\u0E07\u0E14\u0E48\u0E32\u0E19\u0E15\u0E48\u0E2D\u0E44\u0E1B]"
+      objectReference: {fileID: 0}
     - target: {fileID: 6082326900640504013, guid: 574b36890c44b864abf8edb137ed8446, type: 3}
       propertyPath: SendUI
       value: 
