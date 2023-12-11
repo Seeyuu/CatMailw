@@ -22,15 +22,23 @@ public class WrongHouse : MonoBehaviour
 
     public void Update()
     {
-        if (playerInRange && !isCorrect && Input.GetKeyDown(KeyCode.E) && !hasEnteredCollider)
+        if (GameManager.instance != null && GameManager.instance.moodData != null)
         {
-            GameManager.instance.moodData.CurrentMoodPoints--;
-            Debug.Log(moodData.CurrentMoodPoints);
-            UpdateMoodUi();
-            hasEnteredCollider = true;
-            ButtonUI.SetActive(false);
+            if (playerInRange && !isCorrect && Input.GetKeyDown(KeyCode.E) && !hasEnteredCollider)
+            {
+                GameManager.instance.moodData.CurrentMoodPoints--;
+                Debug.Log(GameManager.instance.moodData.CurrentMoodPoints);
+                UpdateMoodUi();
+                hasEnteredCollider = true;
+                ButtonUI.SetActive(false);
+            }
+        }
+        else
+        {
+            Debug.LogError("GameManager or MoodData not available!");
         }
     }
+
 
     void UpdateMoodUi()
     {
