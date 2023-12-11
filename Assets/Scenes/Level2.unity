@@ -15718,15 +15718,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6082326900640504012, guid: 574b36890c44b864abf8edb137ed8446, type: 3}
       propertyPath: dialogueLines.Array.data[1]
-      value: "\u0E19\u0E31\u0E01\u0E40\u0E02\u0E35\u0E22\u0E19\u0E04\u0E19\u0E19\u0E35\u0E49\u0E40\u0E02\u0E32\u0E2D\u0E01\u0E2B\u0E19\u0E31\u0E07\u0E2A\u0E37\u0E2D\u0E14\u0E35\u0E46\u0E21\u0E32\u0E40\u0E22\u0E2D\u0E30\u0E40\u0E25\u0E22"
+      value: "\u0E19\u0E31\u0E01\u0E40\u0E02\u0E35\u0E22\u0E19\u0E04\u0E19\u0E19\u0E35\u0E49\u0E40\u0E02\u0E32\u0E2D\u0E2D\u0E01\u0E2B\u0E19\u0E31\u0E07\u0E2A\u0E37\u0E2D\u0E14\u0E35\u0E46\u0E21\u0E32\u0E40\u0E22\u0E2D\u0E30\u0E40\u0E25\u0E22"
       objectReference: {fileID: 0}
     - target: {fileID: 6082326900640504012, guid: 574b36890c44b864abf8edb137ed8446, type: 3}
       propertyPath: dialogueLines.Array.data[2]
-      value: "\u0E09\u0E31\u0E19\u0E14\u0E35\u0E43\u0E08\u0E17\u0E35\u0E48\u0E40\u0E23\u0E32\u0E44\u0E14\u0E49\u0E2D\u0E22\u0E39\u0E48\u0E40\u0E21\u0E37\u0E07\u0E40\u0E14\u0E35\u0E22\u0E27\u0E01\u0E31\u0E19\u0E19\u0E30"
+      value: "\u0E09\u0E31\u0E19\u0E14\u0E35\u0E43\u0E08\u0E17\u0E35\u0E48\u0E09\u0E31\u0E22\u0E01\u0E31\u0E1A\u0E40\u0E02\u0E32\u0E44\u0E14\u0E49\u0E2D\u0E22\u0E39\u0E48\u0E40\u0E21\u0E37\u0E2D\u0E07\u0E40\u0E14\u0E35\u0E22\u0E27\u0E01\u0E31\u0E19!"
       objectReference: {fileID: 0}
     - target: {fileID: 6082326900640504012, guid: 574b36890c44b864abf8edb137ed8446, type: 3}
       propertyPath: dialogueLines.Array.data[3]
-      value: "\u0E25\u0E32\u0E01\u0E48\u0E19 !"
+      value: "\u0E25\u0E32\u0E01\u0E48\u0E2D\u0E19 !"
       objectReference: {fileID: 0}
     - target: {fileID: 6082326900640504013, guid: 574b36890c44b864abf8edb137ed8446, type: 3}
       propertyPath: SendUI
@@ -16133,11 +16133,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1917582111278219404, guid: bb7dca32a95d2eb43908a0be2acea5dd, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
-      value: 0.17
+      value: 1.0625
       objectReference: {fileID: 0}
     - target: {fileID: 1917582111278219404, guid: bb7dca32a95d2eb43908a0be2acea5dd, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.y
-      value: 0.28
+      value: 1.75
       objectReference: {fileID: 0}
     - target: {fileID: 1917582111278219405, guid: bb7dca32a95d2eb43908a0be2acea5dd, type: 3}
       propertyPath: m_Sprite
@@ -30156,7 +30156,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6082326900640504012, guid: 574b36890c44b864abf8edb137ed8446, type: 3}
       propertyPath: dialogueLines.Array.data[0]
-      value: "\u0E40\u0E18\u0E2D\u0E40\u0E1B\u0E47\u0E19\u0E04\u0E19\u0E2A\u0E48\u0E07\u0E02\u0E07\u0E2A\u0E34\u0E19\u0E30
+      value: "\u0E40\u0E18\u0E2D\u0E40\u0E1B\u0E47\u0E19\u0E04\u0E19\u0E2A\u0E48\u0E07\u0E02\u0E2D\u0E07\u0E2A\u0E34\u0E19\u0E30
         \u0E44\u0E2B\u0E19\u0E14\u0E39\u0E0B\u0E34"
       objectReference: {fileID: 0}
     - target: {fileID: 6082326900640504012, guid: 574b36890c44b864abf8edb137ed8446, type: 3}
@@ -144398,12 +144398,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6082326900640504012, guid: 574b36890c44b864abf8edb137ed8446, type: 3}
       propertyPath: dialogueLines.Array.data[3]
-      value: "\u0E09\u0E31\u0E19\u0E40\u0E1E\u0E34\u0E48\u0E21\u0E22\u0E49\u0E32\u0E22\u0E40\u0E02\u0E49\u0E32\u0E21\u0E32\u0E44\u0E14\u0E49\u0E44\u0E21\u0E48\u0E19\u0E32\u0E19
+      value: "\u0E09\u0E31\u0E19\u0E40\u0E1E\u0E34\u0E48\u0E07\u0E22\u0E49\u0E32\u0E22\u0E40\u0E02\u0E49\u0E32\u0E21\u0E32\u0E44\u0E14\u0E49\u0E44\u0E21\u0E48\u0E19\u0E32\u0E19
         \u0E40\u0E08\u0E49\u0E32\u0E02\u0E2D\u0E07\u0E04\u0E19\u0E40\u0E01\u0E48\u0E32\u0E40\u0E02\u0E32\u0E40\u0E25\u0E35\u0E49\u0E22\u0E07\u0E41\u0E21\u0E27\u0E44\u0E27\u0E49\u0E19\u0E48\u0E30"
       objectReference: {fileID: 0}
     - target: {fileID: 6082326900640504012, guid: 574b36890c44b864abf8edb137ed8446, type: 3}
       propertyPath: dialogueLines.Array.data[4]
-      value: "\u0E2D\u0E22\u0E32\u0E01\u0E25\u0E2D\u0E07\u0E44\u0E1B\u0E40\u0E08\u0E2D\u0E14\u0E39\u0E40\u0E2B\u0E23\u0E2D?"
+      value: "\u0E2D\u0E22\u0E32\u0E01\u0E25\u0E2D\u0E07\u0E44\u0E1B\u0E40\u0E08\u0E2D\u0E40\u0E02\u0E32\u0E14\u0E39\u0E40\u0E2B\u0E23\u0E2D?"
       objectReference: {fileID: 0}
     - target: {fileID: 6082326900640504012, guid: 574b36890c44b864abf8edb137ed8446, type: 3}
       propertyPath: dialogueLines.Array.data[5]
@@ -144416,7 +144416,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6082326900640504012, guid: 574b36890c44b864abf8edb137ed8446, type: 3}
       propertyPath: dialogueLines.Array.data[7]
-      value: "[ \u0E01\u0E14 F \u0E40\u0E1E\u0E37\u0E48\u0E2D\u0E19\u0E44\u0E1B\u0E22\u0E31\u0E07\u0E40\u0E21\u0E37\u0E2D\u0E07\u0E15\u0E48\u0E2D\u0E44\u0E1B]"
+      value: "[ \u0E01\u0E14 F \u0E40\u0E1E\u0E37\u0E48\u0E2D\u0E44\u0E1B\u0E22\u0E31\u0E07\u0E40\u0E21\u0E37\u0E2D\u0E07\u0E15\u0E48\u0E2D\u0E44\u0E1B]"
       objectReference: {fileID: 0}
     - target: {fileID: 6082326900640504013, guid: 574b36890c44b864abf8edb137ed8446, type: 3}
       propertyPath: SendUI
