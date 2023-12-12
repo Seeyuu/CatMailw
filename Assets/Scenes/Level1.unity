@@ -123811,6 +123811,18 @@ PrefabInstance:
       value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 2636870303193816777, guid: 0e9343ccad3eaf04791ecac75d8e95fb, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2636870303193816777, guid: 0e9343ccad3eaf04791ecac75d8e95fb, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2636870303193816777, guid: 0e9343ccad3eaf04791ecac75d8e95fb, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2636870303193816777, guid: 0e9343ccad3eaf04791ecac75d8e95fb, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
@@ -123844,7 +123856,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2636870303193816777, guid: 0e9343ccad3eaf04791ecac75d8e95fb, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -64
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2636870303193816777, guid: 0e9343ccad3eaf04791ecac75d8e95fb, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -123861,6 +123873,10 @@ PrefabInstance:
     - target: {fileID: 2636870303193816778, guid: 0e9343ccad3eaf04791ecac75d8e95fb, type: 3}
       propertyPath: m_Name
       value: SendImage
+      objectReference: {fileID: 0}
+    - target: {fileID: 2636870303193816778, guid: 0e9343ccad3eaf04791ecac75d8e95fb, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0e9343ccad3eaf04791ecac75d8e95fb, type: 3}
@@ -124105,6 +124121,18 @@ PrefabInstance:
       value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 3743553484072634968, guid: d29a7ab45d04afc4fa775ade5b0df337, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3743553484072634968, guid: d29a7ab45d04afc4fa775ade5b0df337, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3743553484072634968, guid: d29a7ab45d04afc4fa775ade5b0df337, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3743553484072634968, guid: d29a7ab45d04afc4fa775ade5b0df337, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
@@ -124155,6 +124183,10 @@ PrefabInstance:
     - target: {fileID: 3743553484072634969, guid: d29a7ab45d04afc4fa775ade5b0df337, type: 3}
       propertyPath: m_Name
       value: SucessImage
+      objectReference: {fileID: 0}
+    - target: {fileID: 3743553484072634969, guid: d29a7ab45d04afc4fa775ade5b0df337, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d29a7ab45d04afc4fa775ade5b0df337, type: 3}
@@ -124443,7 +124475,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6082326900640504012, guid: 574b36890c44b864abf8edb137ed8446, type: 3}
       propertyPath: dialogueLines.Array.data[1]
-      value: "\u0E20\u0E23\u0E23\u0E22\u0E32\u0E09\u0E31\u0E19\u0E40\u0E1E\u0E34\u0E48\u0E21\u0E40\u0E2A\u0E35\u0E22\u0E08\u0E32\u0E01\u0E2D\u0E38\u0E1A\u0E31\u0E15\u0E34\u0E40\u0E2B\u0E08\u0E38\u0E44\u0E21\u0E48\u0E19\u0E32\u0E19\u0E21\u0E32\u0E19\u0E35\u0E49"
+      value: "\u0E20\u0E23\u0E23\u0E22\u0E32\u0E09\u0E31\u0E19\u0E40\u0E1E\u0E34\u0E48\u0E21\u0E40\u0E2A\u0E35\u0E22\u0E08\u0E32\u0E01\u0E2D\u0E38\u0E1A\u0E31\u0E15\u0E34\u0E40\u0E2B\u0E15\u0E38\u0E44\u0E21\u0E48\u0E19\u0E32\u0E19\u0E21\u0E32\u0E19\u0E35\u0E49"
       objectReference: {fileID: 0}
     - target: {fileID: 6082326900640504012, guid: 574b36890c44b864abf8edb137ed8446, type: 3}
       propertyPath: dialogueLines.Array.data[2]
@@ -124778,6 +124810,10 @@ PrefabInstance:
     - target: {fileID: 7549583332518173235, guid: 54a300edc913bc94c9642feb8540ac7c, type: 3}
       propertyPath: m_Name
       value: QuestMenu
+      objectReference: {fileID: 0}
+    - target: {fileID: 7549583332518173235, guid: 54a300edc913bc94c9642feb8540ac7c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7549583332518173236, guid: 54a300edc913bc94c9642feb8540ac7c, type: 3}
       propertyPath: m_Pivot.x
