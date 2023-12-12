@@ -12,11 +12,16 @@ public class MainMenuUI : MonoBehaviour
     }
     public void BackToMainMenu()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+        SceneManager.LoadScene(0);
     }
     public void Quit()
     {
         Application.Quit(); 
+    }
+
+    public void creditscence()
+    {
+        SceneManager.LoadScene(5);
     }
 
 }

@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class CorrectHouse : MonoBehaviour
 {
@@ -46,7 +47,7 @@ public class CorrectHouse : MonoBehaviour
         }
         else if (moodData.CurrentMoodPoints < 2)
         {
-            Gameover.SetActive(true);
+            SceneManager.LoadScene(6);
         }
     }
 

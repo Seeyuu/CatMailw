@@ -1,10 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GoodEnd : MonoBehaviour
 {
-    public DialougeManagerTest dialougeManagerTest;
+    public AfterEnding afterEnding;
     public bool playerInRange;
     public bool hasEnteredCollider = false;
 
@@ -43,7 +44,7 @@ public class GoodEnd : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             playerInRange = false;
-            dialougeManagerTest.EndDialogue();
+            afterEnding.EndDialogue();
             StartCoroutine(ShowPostCutsceneUI());
         }
     }
@@ -57,7 +58,8 @@ public class GoodEnd : MonoBehaviour
             uiElement.SetActive(false);
         }
 
-        dialougeManagerTest.StartDialogue();
+        afterEnding.StartDialogue();
+        
     }
 
     private IEnumerator ShowPostCutsceneUI()
@@ -68,6 +70,8 @@ public class GoodEnd : MonoBehaviour
         {
             uiElement.SetActive(true);
         }
+
+       ;
     }
 
     private void DisableAllUI()
@@ -81,5 +85,7 @@ public class GoodEnd : MonoBehaviour
         {
             uiElement.SetActive(false);
         }
+
+
     }
 }
