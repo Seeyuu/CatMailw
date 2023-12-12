@@ -6,6 +6,8 @@ public class Collar3Count : MonoBehaviour
 {
     // Start is called before the first frame update
     public bool isplayerInRange;
+
+    public CheckCollar checkCollar;
     void Start()
     {
         
@@ -26,6 +28,7 @@ public class Collar3Count : MonoBehaviour
         if (isplayerInRange && Input.GetKeyDown(KeyCode.Space))
         {
             Debug.Log("collar3 collect");
+            checkCollar.collarcount++;
         }
     }
 }

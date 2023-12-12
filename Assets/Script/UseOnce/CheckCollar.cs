@@ -4,15 +4,31 @@ using UnityEngine;
 
 public class CheckCollar : MonoBehaviour
 {
-    // Start is called before the first frame update
+    [SerializeField] GameObject house;
+   // [SerializeField] GameObject housedialogue;
+    public int collarcount = 0;
     void Start()
     {
-        
+        house.SetActive(false);
+       // housedialogue.SetActive(false);
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        UpdateCollarPoint();
+    }
+
+    void UpdateCollarPoint()
+    {
+        if (collarcount == 1)
+        {
+           house.SetActive(true);
+          // housedialogue.SetActive(true);
+        }
+        else
+        {
+
+        }
     }
 }

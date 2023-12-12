@@ -8,6 +8,8 @@ public class CollectCollar : MonoBehaviour
     
     public bool isplayerInRange;
 
+    public CheckCollar checkCollar;
+
     public void Start()
     {
         collar1.SetActive(true);
@@ -30,6 +32,7 @@ public class CollectCollar : MonoBehaviour
         {
             collar1.SetActive(false);
             Debug.Log("collar1 found");
+            checkCollar.collarcount++;
         }
         else
         {
