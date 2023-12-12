@@ -19,4 +19,9 @@ public class MainMenuUI : MonoBehaviour
         Application.Quit(); 
     }
 
+    public void creditscence()
+    {
+        SceneManager.LoadScene(5);
+    }
+
 }
