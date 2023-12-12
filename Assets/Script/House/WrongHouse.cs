@@ -1,10 +1,11 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class WrongHouse : MonoBehaviour
 {
     [SerializeField] GameObject happy;
     [SerializeField] GameObject angry;
-    [SerializeField] GameObject Gameover;
+    //SerializeField] GameObject Gameover;
     [SerializeField] GameObject ButtonUI;
 
     public bool isCorrect;
@@ -52,7 +53,7 @@ public class WrongHouse : MonoBehaviour
         }
         else if (moodData.CurrentMoodPoints < 2)
         {
-            Gameover.SetActive(true);
+            SceneManager.LoadScene(6);
         }
     }
 

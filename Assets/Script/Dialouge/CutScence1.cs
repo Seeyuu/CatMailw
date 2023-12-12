@@ -21,7 +21,7 @@ public class CutScence1 : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.E) && playerInRange && !hasEnteredCollider)
         {
             StartCoroutine(ShowUI2Second());
-            dialougeManagerTest.StartDialogue();
+           
             hasEnteredCollider = true;
         }
     }
@@ -56,6 +56,7 @@ public class CutScence1 : MonoBehaviour
             yield return new WaitForSeconds(3);
             uiElement.SetActive(false);
         }
+        dialougeManagerTest.StartDialogue();
     }
 
     void DisableAllUI()
