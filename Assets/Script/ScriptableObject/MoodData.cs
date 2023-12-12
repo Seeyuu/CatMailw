@@ -20,7 +20,7 @@ public class MoodData : ScriptableObject
 
     public void ResetMood()
     {
-        currentMoodPoints = startingMoodPoints;
+        currentMoodPoints = 5;
     }
 
     // You can add more properties or methods as needed

@@ -15,7 +15,7 @@ public class WrongHouse : MonoBehaviour
 
     private void Start()
     {
-        //moodData.ResetMood(); // Reset the mood data
+        
         UpdateMoodUi();
         ButtonUI.SetActive(false);
     }
@@ -46,11 +46,11 @@ public class WrongHouse : MonoBehaviour
         {
             happy.SetActive(true);
         }
-        else if (moodData.CurrentMoodPoints >= moodData.minMoodPoints + 1&& moodData.CurrentMoodPoints < moodData.maxMoodPoints)
+        else if (moodData.CurrentMoodPoints <= 4 )
         {
             angry.SetActive(true);
         }
-        else if (moodData.CurrentMoodPoints < moodData.minMoodPoints)
+        else if (moodData.CurrentMoodPoints < 2)
         {
             Gameover.SetActive(true);
         }

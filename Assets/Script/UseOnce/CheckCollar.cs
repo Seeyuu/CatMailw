@@ -21,10 +21,10 @@ public class CheckCollar : MonoBehaviour
 
     void UpdateCollarPoint()
     {
-        if (collarcount == 1)
+        if (collarcount < 3)
         {
-           house.SetActive(true);
-          // housedialogue.SetActive(true);
+           
+          
         }
         else
         {

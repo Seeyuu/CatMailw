@@ -34,17 +34,17 @@ public class CorrectHouse : MonoBehaviour
 
     void UpdateMoodUi()
     {
-        if (moodData.CurrentMoodPoints >= moodData.maxMoodPoints)
+        if (moodData.CurrentMoodPoints >= 5)
         {
             happy.SetActive(true);
             angry.SetActive(false);
         }
-        else if (moodData.CurrentMoodPoints <= moodData.minMoodPoints + 1)
+        else if (moodData.CurrentMoodPoints <= 4)
         {
             happy.SetActive(false);
             angry.SetActive(true);
         }
-        else if (moodData.CurrentMoodPoints < moodData.minMoodPoints)
+        else if (moodData.CurrentMoodPoints < 2)
         {
             Gameover.SetActive(true);
         }
