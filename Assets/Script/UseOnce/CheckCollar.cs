@@ -4,12 +4,14 @@ using UnityEngine;
 
 public class CheckCollar : MonoBehaviour
 {
-    [SerializeField] GameObject house;
+    [SerializeField] GameObject goodhouse;
+    [SerializeField] GameObject badhouse;
    // [SerializeField] GameObject housedialogue;
     public int collarcount = 0;
     void Start()
     {
-        house.SetActive(false);
+        goodhouse.SetActive(false);
+        badhouse.SetActive(true);
        // housedialogue.SetActive(false);
     }
 
@@ -21,14 +23,15 @@ public class CheckCollar : MonoBehaviour
 
     void UpdateCollarPoint()
     {
-        if (collarcount < 3)
+        if (collarcount == 3)
         {
-           
+            goodhouse.SetActive(true);
+            badhouse.SetActive(false);
           
         }
         else
         {
-
+            
         }
     }
 }
