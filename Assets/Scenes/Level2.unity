@@ -15870,6 +15870,10 @@ PrefabInstance:
       propertyPath: Gameover
       value: 
       objectReference: {fileID: 103035346}
+    - target: {fileID: 6082326900640504018, guid: 574b36890c44b864abf8edb137ed8446, type: 3}
+      propertyPath: moodData
+      value: 
+      objectReference: {fileID: 11400000, guid: d7774ae2b6914de40b48446da3de69df, type: 2}
     - target: {fileID: 8863629678360461300, guid: 574b36890c44b864abf8edb137ed8446, type: 3}
       propertyPath: m_Name
       value: CorrectHouse
@@ -26950,7 +26954,7 @@ PrefabInstance:
     - target: {fileID: 1546023024, guid: 11df5f46cdf44fa468add1413d5d9dd3, type: 3}
       propertyPath: moodData
       value: 
-      objectReference: {fileID: 11400000, guid: 2247f1d000a94bc429044e7c8445f68c, type: 2}
+      objectReference: {fileID: 11400000, guid: d7774ae2b6914de40b48446da3de69df, type: 2}
     - target: {fileID: 1546023027, guid: 11df5f46cdf44fa468add1413d5d9dd3, type: 3}
       propertyPath: SendUI
       value: 
@@ -27117,7 +27121,7 @@ PrefabInstance:
     - target: {fileID: 1546023024, guid: 11df5f46cdf44fa468add1413d5d9dd3, type: 3}
       propertyPath: moodData
       value: 
-      objectReference: {fileID: 11400000, guid: 2247f1d000a94bc429044e7c8445f68c, type: 2}
+      objectReference: {fileID: 11400000, guid: d7774ae2b6914de40b48446da3de69df, type: 2}
     - target: {fileID: 1546023027, guid: 11df5f46cdf44fa468add1413d5d9dd3, type: 3}
       propertyPath: SendUI
       value: 
@@ -30205,7 +30209,7 @@ PrefabInstance:
     - target: {fileID: 1546023024, guid: 11df5f46cdf44fa468add1413d5d9dd3, type: 3}
       propertyPath: moodData
       value: 
-      objectReference: {fileID: 11400000, guid: 2247f1d000a94bc429044e7c8445f68c, type: 2}
+      objectReference: {fileID: 11400000, guid: d7774ae2b6914de40b48446da3de69df, type: 2}
     - target: {fileID: 1546023027, guid: 11df5f46cdf44fa468add1413d5d9dd3, type: 3}
       propertyPath: SendUI
       value: 
@@ -30394,6 +30398,10 @@ PrefabInstance:
       propertyPath: Gameover
       value: 
       objectReference: {fileID: 103035346}
+    - target: {fileID: 6082326900640504018, guid: 574b36890c44b864abf8edb137ed8446, type: 3}
+      propertyPath: moodData
+      value: 
+      objectReference: {fileID: 11400000, guid: d7774ae2b6914de40b48446da3de69df, type: 2}
     - target: {fileID: 8863629678360461300, guid: 574b36890c44b864abf8edb137ed8446, type: 3}
       propertyPath: m_Name
       value: CorrectHouse
@@ -30470,7 +30478,7 @@ PrefabInstance:
     - target: {fileID: 1546023024, guid: 11df5f46cdf44fa468add1413d5d9dd3, type: 3}
       propertyPath: moodData
       value: 
-      objectReference: {fileID: 11400000, guid: 2247f1d000a94bc429044e7c8445f68c, type: 2}
+      objectReference: {fileID: 11400000, guid: d7774ae2b6914de40b48446da3de69df, type: 2}
     - target: {fileID: 1546023027, guid: 11df5f46cdf44fa468add1413d5d9dd3, type: 3}
       propertyPath: SendUI
       value: 
@@ -144023,7 +144031,7 @@ PrefabInstance:
     - target: {fileID: 1546023024, guid: 11df5f46cdf44fa468add1413d5d9dd3, type: 3}
       propertyPath: moodData
       value: 
-      objectReference: {fileID: 11400000, guid: 2247f1d000a94bc429044e7c8445f68c, type: 2}
+      objectReference: {fileID: 11400000, guid: d7774ae2b6914de40b48446da3de69df, type: 2}
     - target: {fileID: 1546023027, guid: 11df5f46cdf44fa468add1413d5d9dd3, type: 3}
       propertyPath: SendUI
       value: 
@@ -144477,7 +144485,7 @@ PrefabInstance:
     - target: {fileID: 1546023024, guid: 11df5f46cdf44fa468add1413d5d9dd3, type: 3}
       propertyPath: moodData
       value: 
-      objectReference: {fileID: 11400000, guid: 2247f1d000a94bc429044e7c8445f68c, type: 2}
+      objectReference: {fileID: 11400000, guid: d7774ae2b6914de40b48446da3de69df, type: 2}
     - target: {fileID: 1546023027, guid: 11df5f46cdf44fa468add1413d5d9dd3, type: 3}
       propertyPath: SendUI
       value: 
@@ -144620,7 +144628,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6082326900640504012, guid: 574b36890c44b864abf8edb137ed8446, type: 3}
       propertyPath: finishUIElements.Array.size
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6082326900640504012, guid: 574b36890c44b864abf8edb137ed8446, type: 3}
       propertyPath: finishUIElements.Array.data[0]
@@ -144646,6 +144654,10 @@ PrefabInstance:
       propertyPath: Gameover
       value: 
       objectReference: {fileID: 103035346}
+    - target: {fileID: 6082326900640504018, guid: 574b36890c44b864abf8edb137ed8446, type: 3}
+      propertyPath: moodData
+      value: 
+      objectReference: {fileID: 11400000, guid: d7774ae2b6914de40b48446da3de69df, type: 2}
     - target: {fileID: 8863629678360461300, guid: 574b36890c44b864abf8edb137ed8446, type: 3}
       propertyPath: m_Name
       value: CorrectHouse
@@ -144750,4 +144762,5 @@ MonoBehaviour:
   playerInRange: 0
   hasEnteredCollider: 0
   uiElements:
-  - {fileID: 0}
+  - {fileID: 470544308}
+  - {fileID: 1391773384}
