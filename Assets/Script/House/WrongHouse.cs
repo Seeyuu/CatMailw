@@ -1,3 +1,5 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -46,24 +48,22 @@ public class WrongHouse : MonoBehaviour
 
     void UpdateMoodUi()
     {
+        Debug.Log("Updating Mood UI. Current Mood Points: " + moodData.CurrentMoodPoints);
+
         if (moodData.CurrentMoodPoints == 5)
         {
             happy.SetActive(true);
-
-          //  happymood.enabled = true;
-           // notgood.enabled = false;
         }
-        else if (moodData.CurrentMoodPoints <= 4 )
+        else if (moodData.CurrentMoodPoints <= 4)
         {
             angry.SetActive(true);
-
-          //  happymood.enabled = false;
-          //  notgood.enabled = true;
         }
         else if (moodData.CurrentMoodPoints < 2)
         {
-            SceneManager.LoadScene(6);
+            Debug.Log("Loading Scene 6");
+            SceneManager.LoadScene(0);
         }
+
     }
 
     public void OnTriggerEnter2D(Collider2D other)

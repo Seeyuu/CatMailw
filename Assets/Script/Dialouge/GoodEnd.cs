@@ -10,7 +10,7 @@ public class GoodEnd : MonoBehaviour
     public bool hasEnteredCollider = false;
 
     public GameObject[] initialUiElements;
-    public GameObject[] postCutsceneUiElements;
+   // public GameObject[] postCutsceneUiElements;
 
     [SerializeField] AudioSource sound;
 
@@ -48,7 +48,7 @@ public class GoodEnd : MonoBehaviour
         {
             playerInRange = false;
             afterEnding.EndDialogue();
-            StartCoroutine(ShowPostCutsceneUI());
+           // StartCoroutine(ShowPostCutsceneUI());
         }
     }
 
@@ -65,17 +65,17 @@ public class GoodEnd : MonoBehaviour
         
     }
 
-    private IEnumerator ShowPostCutsceneUI()
-    {
-        yield return new WaitForSeconds(2); // Adjust the delay if needed
+   // private IEnumerator ShowPostCutsceneUI()
+   // {
+    //    yield return new WaitForSeconds(2); // Adjust the delay if needed
 
-        foreach (GameObject uiElement in postCutsceneUiElements)
-        {
-            uiElement.SetActive(true);
-        }
+     //   foreach (GameObject uiElement in postCutsceneUiElements)
+    //    {
+         //   uiElement.SetActive(true);
+     //   }
 
-       ;
-    }
+    //   ;
+   // }
 
     private void DisableAllUI()
     {
@@ -84,10 +84,10 @@ public class GoodEnd : MonoBehaviour
             uiElement.SetActive(false);
         }
 
-        foreach (GameObject uiElement in postCutsceneUiElements)
-        {
-            uiElement.SetActive(false);
-        }
+      //  foreach (GameObject uiElement in postCutsceneUiElements)
+       // {
+          //  uiElement.SetActive(false);
+       // }
 
 
     }
