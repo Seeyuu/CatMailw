@@ -14,11 +14,15 @@ public class CorrectHouse : MonoBehaviour
 
     public MoodData moodData; // Reference to MoodData
 
+   // public AudioSource happymood;
+   // public AudioSource notgood;
+
     private void Start()
     {
         //moodData.ResetMood(); // Reset the mood data
         UpdateMoodUi();
         ButtonUI.SetActive(false);
+        
     }
 
     public void Update()
@@ -39,11 +43,16 @@ public class CorrectHouse : MonoBehaviour
         {
             happy.SetActive(true);
             angry.SetActive(false);
+         //   happymood.enabled = true;
+         //   notgood.enabled = false;
         }
         else if (moodData.CurrentMoodPoints <= 4)
         {
             happy.SetActive(false);
             angry.SetActive(true);
+            
+         //   happymood.enabled = false;
+         //   notgood.enabled = true;
         }
         else if (moodData.CurrentMoodPoints < 2)
         {

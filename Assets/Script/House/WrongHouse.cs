@@ -14,6 +14,9 @@ public class WrongHouse : MonoBehaviour
 
     public MoodData moodData; // Reference to MoodData
 
+    //public AudioSource happymood;
+    //public AudioSource notgood;
+
     private void Start()
     {
         
@@ -43,13 +46,19 @@ public class WrongHouse : MonoBehaviour
 
     void UpdateMoodUi()
     {
-        if (moodData.CurrentMoodPoints >= moodData.maxMoodPoints)
+        if (moodData.CurrentMoodPoints == 5)
         {
             happy.SetActive(true);
+
+          //  happymood.enabled = true;
+           // notgood.enabled = false;
         }
         else if (moodData.CurrentMoodPoints <= 4 )
         {
             angry.SetActive(true);
+
+          //  happymood.enabled = false;
+          //  notgood.enabled = true;
         }
         else if (moodData.CurrentMoodPoints < 2)
         {
