@@ -75937,7 +75937,7 @@ RectTransform:
   m_GameObject: {fileID: 1928098515}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 12.243569, y: 5.1017, z: 5.1017}
+  m_LocalScale: {x: 8, y: 3.5, z: 3}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1364052581}
@@ -77303,6 +77303,11 @@ PrefabInstance:
       propertyPath: playerMovement
       value: 
       objectReference: {fileID: 1192720588}
+    - target: {fileID: 1917582111278219407, guid: bb7dca32a95d2eb43908a0be2acea5dd, type: 3}
+      propertyPath: dialogueLines.Array.data[0]
+      value: "\u0E2A\u0E27\u0E31\u0E2A\u0E14\u0E35 ! \u0E43\u0E19\u0E17\u0E35\u0E48\u0E2A\u0E38\u0E14\u0E04\u0E38\u0E13\u0E01\u0E47\u0E15\u0E37\u0E48\u0E19\u0E41\u0E25\u0E49\u0E27
+        (\u0E01\u0E14 spc \u0E40\u0E1E\u0E37\u0E48\u0E2D\u0E44\u0E1B\u0E15\u0E48\u0E2D)"
+      objectReference: {fileID: 0}
     - target: {fileID: 1917582111278219407, guid: bb7dca32a95d2eb43908a0be2acea5dd, type: 3}
       propertyPath: dialogueLines.Array.data[7]
       value: "\u0E40\u0E23\u0E32\u0E44\u0E14\u0E49\u0E40\u0E15\u0E23\u0E35\u0E22\u0E21\u0E01\u0E32\u0E23\u0E1D\u0E36\u0E01\u0E07\u0E32\u0E19\u0E44\u0E27\u0E49\u0E43\u0E2B\u0E49\u0E41\u0E25\u0E49\u0E27"
