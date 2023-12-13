@@ -54,17 +54,20 @@ public class WrongHouse : MonoBehaviour
         {
             happy.SetActive(true);
         }
+        else if (moodData.CurrentMoodPoints <= 2)
+        {
+            SceneManager.LoadScene(6);
+        }
         else if (moodData.CurrentMoodPoints <= 4)
         {
             angry.SetActive(true);
         }
-        else if (moodData.CurrentMoodPoints < 2)
+        else
         {
-            Debug.Log("Loading Scene 6");
-            SceneManager.LoadScene(0);
+            // Handle other cases if needed
         }
-
     }
+
 
     public void OnTriggerEnter2D(Collider2D other)
     {

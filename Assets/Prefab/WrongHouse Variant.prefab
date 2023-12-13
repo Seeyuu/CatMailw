@@ -136,7 +136,7 @@ MonoBehaviour:
   isCorrect: 0
   playerInRange: 0
   hasEnteredCollider: 0
-  moodData: {fileID: 0}
+  moodData: {fileID: 11400000, guid: d7774ae2b6914de40b48446da3de69df, type: 2}
 --- !u!114 &1546023027
 MonoBehaviour:
   m_ObjectHideFlags: 0
