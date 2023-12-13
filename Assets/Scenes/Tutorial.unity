@@ -595,64 +595,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 53252174}
   m_CullTransparentMesh: 1
---- !u!1 &71352489
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 71352490}
-  - component: {fileID: 71352491}
-  m_Layer: 7
-  m_Name: BirdWall (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &71352490
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 71352489}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.75, y: 0.21, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1980299380}
-  m_RootOrder: 19
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &71352491
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 71352489}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1}
-  m_EdgeRadius: 0
 --- !u!1 &85554706
 GameObject:
   m_ObjectHideFlags: 0
@@ -49956,7 +49898,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 632219923}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -14.13, y: 2.74, z: 0}
+  m_LocalPosition: {x: -16.72, y: 2.74, z: 0}
   m_LocalScale: {x: 0.2625, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -73877,7 +73819,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1537857084}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -5.1, z: 0}
+  m_LocalPosition: {x: 0, y: -3.9, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -75169,7 +75111,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1743701793}
   m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: -10.4, y: 15.49, z: 0}
+  m_LocalPosition: {x: -8.79, y: 15.49, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -76196,7 +76138,6 @@ Transform:
   - {fileID: 866189605}
   - {fileID: 839663531}
   - {fileID: 455538449}
-  - {fileID: 71352490}
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -77303,22 +77244,6 @@ PrefabInstance:
       propertyPath: playerMovement
       value: 
       objectReference: {fileID: 1192720588}
-    - target: {fileID: 1917582111278219407, guid: bb7dca32a95d2eb43908a0be2acea5dd, type: 3}
-      propertyPath: dialogueLines.Array.data[0]
-      value: "\u0E2A\u0E27\u0E31\u0E2A\u0E14\u0E35 ! \u0E43\u0E19\u0E17\u0E35\u0E48\u0E2A\u0E38\u0E14\u0E04\u0E38\u0E13\u0E01\u0E47\u0E15\u0E37\u0E48\u0E19\u0E41\u0E25\u0E49\u0E27 "
-      objectReference: {fileID: 0}
-    - target: {fileID: 1917582111278219407, guid: bb7dca32a95d2eb43908a0be2acea5dd, type: 3}
-      propertyPath: dialogueLines.Array.data[3]
-      value: "\u0E15\u0E2D\u0E19\u0E19\u0E35\u0E49\u0E1E\u0E27\u0E01\u0E40\u0E23\u0E32\u0E02\u0E32\u0E14\u0E41\u0E04\u0E25\u0E19\u0E1A\u0E38\u0E23\u0E38\u0E29\u0E44\u0E1B\u0E23\u0E13\u0E35\u0E22\u0E4C\u0E40\u0E1B\u0E47\u0E19\u0E2D\u0E22\u0E48\u0E32\u0E07\u0E21\u0E32\u0E01"
-      objectReference: {fileID: 0}
-    - target: {fileID: 1917582111278219407, guid: bb7dca32a95d2eb43908a0be2acea5dd, type: 3}
-      propertyPath: dialogueLines.Array.data[7]
-      value: "\u0E40\u0E23\u0E32\u0E44\u0E14\u0E49\u0E40\u0E15\u0E23\u0E35\u0E22\u0E21\u0E01\u0E32\u0E23\u0E1D\u0E36\u0E01\u0E07\u0E32\u0E19\u0E44\u0E27\u0E49\u0E43\u0E2B\u0E49\u0E41\u0E25\u0E49\u0E27"
-      objectReference: {fileID: 0}
-    - target: {fileID: 1917582111278219407, guid: bb7dca32a95d2eb43908a0be2acea5dd, type: 3}
-      propertyPath: dialogueLines.Array.data[10]
-      value: "\u0E40\u0E2D\u0E32\u0E25\u0E48\u0E30 \u0E25\u0E2D\u0E07\u0E44\u0E1B\u0E2A\u0E48\u0E07\u0E02\u0E2D\u0E07\u0E17\u0E35\u0E48\u0E1A\u0E49\u0E32\u0E19\u0E41\u0E23\u0E01\u0E14\u0E39\u0E2A\u0E34"
-      objectReference: {fileID: 0}
     - target: {fileID: 1917582111278219409, guid: bb7dca32a95d2eb43908a0be2acea5dd, type: 3}
       propertyPath: m_Name
       value: BirdNPC
