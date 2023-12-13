@@ -12,6 +12,8 @@ public class GoodEnd : MonoBehaviour
     public GameObject[] initialUiElements;
     public GameObject[] postCutsceneUiElements;
 
+    [SerializeField] AudioSource sound;
+
     private void Start()
     {
         DisableAllUI();
@@ -21,6 +23,7 @@ public class GoodEnd : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.E) && playerInRange && !hasEnteredCollider)
         {
+            
             StartCoroutine(ShowUIAndStartDialogue(initialUiElements));
             hasEnteredCollider = true;
         }
