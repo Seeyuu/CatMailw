@@ -13,7 +13,7 @@ public class Flowerleel2 : MonoBehaviour
     private void Start()
     {
 
-       giveFlower.SetActive(false);
+       
 
     }
     void OnTriggerEnter2D(Collider2D other)

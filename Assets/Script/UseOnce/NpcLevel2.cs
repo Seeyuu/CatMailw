@@ -7,6 +7,7 @@ public class NpcLevel2 : MonoBehaviour
 
     [SerializeField] GameObject npc;
     [SerializeField] GameObject flower;
+   // [SerializeField] GameObject blockcollider;
     public bool isPlayerInRange;
 
 
@@ -15,6 +16,7 @@ public class NpcLevel2 : MonoBehaviour
 
         npc.SetActive(false);
         flower.SetActive(false);
+       // blockcollider.SetActive(false);
 
     }
     void OnTriggerEnter2D(Collider2D other)
@@ -34,6 +36,7 @@ public class NpcLevel2 : MonoBehaviour
         {
             npc.SetActive(true);
             flower.SetActive(true);
+            //blockcollider.SetActive(true);
 
         }
         else

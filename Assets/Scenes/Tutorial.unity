@@ -42408,7 +42408,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1917582111278219407, guid: bb7dca32a95d2eb43908a0be2acea5dd, type: 3}
       propertyPath: dialogueLines.Array.data[1]
-      value: "\u0E40\u0E2D\u0E32\u0E25\u0E48\u0E30\u0E15\u0E48\u0E2D\u0E44\u0E1B\u0E09\u0E31\u0E19\u0E2D\u0E22\u0E48\u0E32\u0E07\u0E43\u0E2B\u0E49\u0E40\u0E18\u0E2D\u0E25\u0E2D\u0E07\u0E2A\u0E48\u0E07\u0E1C\u0E34\u0E14\u0E1A\u0E49\u0E32\u0E19"
+      value: "\u0E40\u0E2D\u0E32\u0E25\u0E48\u0E30\u0E15\u0E48\u0E2D\u0E44\u0E1B\u0E09\u0E31\u0E19\u0E2D\u0E22\u0E32\u0E01\u0E43\u0E2B\u0E49\u0E40\u0E18\u0E2D\u0E25\u0E2D\u0E07\u0E2A\u0E48\u0E07\u0E1C\u0E34\u0E14\u0E1A\u0E49\u0E32\u0E19"
       objectReference: {fileID: 0}
     - target: {fileID: 1917582111278219407, guid: bb7dca32a95d2eb43908a0be2acea5dd, type: 3}
       propertyPath: dialogueLines.Array.data[2]
