@@ -18,14 +18,15 @@ public class GameManager : MonoBehaviour
         {
             Destroy(gameObject);
         }
-    }
 
-    private void Start()
-    {
         // Optionally reset mood points when the game starts
         if (moodData != null)
         {
             moodData.ResetMood();
+
+
         }
+
+       
     }
 }

@@ -18,22 +18,23 @@ public class ObjectInteraction : MonoBehaviour
 
     public void Update()
     {
-        if (Input.GetKeyDown(KeyCode.E) && playerInRange &&!hasEnteredCollider)
+        if (Input.GetKeyDown(KeyCode.E) && playerInRange && !hasEnteredCollider)
         {
+
             StartCoroutine(ShowUI2Second());
-            dialougeManagerTest.StartDialogue();
+           
             hasEnteredCollider = true;
         }
         else
         {
-            
-            
+
+
         }
     }
 
     void Interac()
     {
-        
+
     }
     void OnTriggerEnter2D(Collider2D other)
     {
@@ -59,5 +60,6 @@ public class ObjectInteraction : MonoBehaviour
         yield return new WaitForSeconds(2);
 
         SendUI.SetActive(false);
+        dialougeManagerTest.StartDialogue();
     }
 }

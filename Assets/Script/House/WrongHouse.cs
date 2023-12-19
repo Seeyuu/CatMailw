@@ -1,10 +1,13 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class WrongHouse : MonoBehaviour
 {
     [SerializeField] GameObject happy;
     [SerializeField] GameObject angry;
-    [SerializeField] GameObject Gameover;
+    //SerializeField] GameObject Gameover;
     [SerializeField] GameObject ButtonUI;
 
     public bool isCorrect;
@@ -13,9 +16,12 @@ public class WrongHouse : MonoBehaviour
 
     public MoodData moodData; // Reference to MoodData
 
+    //public AudioSource happymood;
+    //public AudioSource notgood;
+
     private void Start()
     {
-        //moodData.ResetMood(); // Reset the mood data
+        
         UpdateMoodUi();
         ButtonUI.SetActive(false);
     }
@@ -42,19 +48,26 @@ public class WrongHouse : MonoBehaviour
 
     void UpdateMoodUi()
     {
-        if (moodData.CurrentMoodPoints >= moodData.maxMoodPoints)
+        Debug.Log("Updating Mood UI. Current Mood Points: " + moodData.CurrentMoodPoints);
+
+        if (moodData.CurrentMoodPoints == 5)
         {
             happy.SetActive(true);
         }
-        else if (moodData.CurrentMoodPoints >= moodData.minMoodPoints + 1&& moodData.CurrentMoodPoints < moodData.maxMoodPoints)
+        else if (moodData.CurrentMoodPoints <= 2)
+        {
+            SceneManager.LoadScene(6);
+        }
+        else if (moodData.CurrentMoodPoints <= 4)
         {
             angry.SetActive(true);
         }
-        else if (moodData.CurrentMoodPoints < moodData.minMoodPoints)
+        else
         {
-            Gameover.SetActive(true);
+            // Handle other cases if needed
         }
     }
+
 
     public void OnTriggerEnter2D(Collider2D other)
     {

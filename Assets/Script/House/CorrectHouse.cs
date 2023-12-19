@@ -1,4 +1,7 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class CorrectHouse : MonoBehaviour
 {
@@ -13,11 +16,15 @@ public class CorrectHouse : MonoBehaviour
 
     public MoodData moodData; // Reference to MoodData
 
+   // public AudioSource happymood;
+   // public AudioSource notgood;
+
     private void Start()
     {
         //moodData.ResetMood(); // Reset the mood data
         UpdateMoodUi();
         ButtonUI.SetActive(false);
+        
     }
 
     public void Update()
@@ -34,21 +41,26 @@ public class CorrectHouse : MonoBehaviour
 
     void UpdateMoodUi()
     {
-        if (moodData.CurrentMoodPoints >= moodData.maxMoodPoints)
+        Debug.Log("Updating Mood UI. Current Mood Points: " + moodData.CurrentMoodPoints);
+
+        if (moodData.CurrentMoodPoints == 5)
         {
             happy.SetActive(true);
-            angry.SetActive(false);
         }
-        else if (moodData.CurrentMoodPoints <= moodData.minMoodPoints + 1)
+        else if (moodData.CurrentMoodPoints <= 2)
         {
-            happy.SetActive(false);
+            SceneManager.LoadScene(6);
+        }
+        else if (moodData.CurrentMoodPoints <= 4)
+        {
             angry.SetActive(true);
         }
-        else if (moodData.CurrentMoodPoints < moodData.minMoodPoints)
+        else
         {
-            Gameover.SetActive(true);
+            // Handle other cases if needed
         }
     }
+
 
     public void OnTriggerEnter2D(Collider2D other)
     {

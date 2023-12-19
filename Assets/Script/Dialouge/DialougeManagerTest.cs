@@ -1,31 +1,25 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using System;
 
 public class DialougeManagerTest : MonoBehaviour
 {
-
-    //à¡ÕèÂÇ¡Ñºdialouge
     public Text dialogueText;
     public GameObject dilogueBg;
-    public string[] dialogueLines; // An array to hold your dialogue lines.
+    public string[] dialogueLines;
     private int currentLine = 0;
     private bool dialogueActive = false;
 
-    public GameObject FinishUI;
-
+    public GameObject[] finishUIElements; // An array to hold your UI elements.
     public PlayerMovement playerMovement;
 
     void Start()
     {
         dialogueText.gameObject.SetActive(false);
         dilogueBg.SetActive(false);
-        FinishUI.SetActive(false);
 
         playerMovement = FindObjectOfType<PlayerMovement>();
-        if(playerMovement == null)
+        if (playerMovement == null)
         {
             Debug.LogError("cannot found");
         }
@@ -67,7 +61,6 @@ public class DialougeManagerTest : MonoBehaviour
         {
             EndDialogue();
             StartCoroutine(ShowUI3Second());
-
         }
     }
 
@@ -76,25 +69,18 @@ public class DialougeManagerTest : MonoBehaviour
         dialogueText.gameObject.SetActive(false);
         dilogueBg.SetActive(false);
         dialogueActive = false;
-
         playerMovement.enabled = true;
-
-
     }
 
     IEnumerator ShowUI3Second()
     {
-        FinishUI.SetActive(true);
+        foreach (GameObject uiElement in finishUIElements)
+        {
+            uiElement.SetActive(true);
+            yield return new WaitForSeconds(3);
+            uiElement.SetActive(false);
+        }
 
-        yield return new WaitForSeconds(2);
-
-        FinishUI.SetActive(false);
-        playerMovement.enabled=true;
+        playerMovement.enabled = true;
     }
-
-
-
-
-
-
 }
